@@ -4,7 +4,6 @@ FROM mysql:latest
 # Environment variables for MySQL configuration
 ENV MYSQL_ROOT_PASSWORD=abcd
 ENV MYSQL_DATABASE=mydb
-ENV MYSQL_USER=root
 ENV MYSQL_PASSWORD=abcd
 
 # Copy the SQL initialization script
